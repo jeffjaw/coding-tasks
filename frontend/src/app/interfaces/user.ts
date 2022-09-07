@@ -4,7 +4,7 @@ export interface User {
   guid: string;
   isActive: boolean;
   balance: string;
-  balanceNum?: number;
+  balanceNum?: number; // extended property from json to help format the digits
   picture: string;
   age: number;
   eyeColor: string;

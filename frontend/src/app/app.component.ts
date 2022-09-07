@@ -25,7 +25,6 @@ export class AppComponent implements OnInit {
   }
 
   onResetBalance(event: any) {
-    var test = '';
     this.users = this.rawUsersData
       .map((user) => {
         user.balanceNum = 0;

@@ -26,6 +26,7 @@
         <tr>
           <td>{{ row.name }}</td>
           <td>{{ row.age }}</td>
+          <!-- changes from task description format dd-mm-yyyy dd:mm:ss-->
           <td>{{ row.registered | date: "dd-mm-yyyy hh:mm:ss" }}</td>
           <td>{{ row.email }}</td>
           <td>{{ row.balanceNum | currency: "GBP":"symbol":"1.2-2" }}</td>
