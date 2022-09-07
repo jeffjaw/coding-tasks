@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj": {}
+    "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\coding-tasks\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj": {
+    "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\coding-tasks\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj",
+        "projectUniqueName": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\coding-tasks\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj",
         "projectName": "SB.TechnicalTest",
-        "projectPath": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj",
+        "projectPath": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\coding-tasks\\backend\\SB.TechnicalTest\\SB.TechnicalTest.csproj",
         "packagesPath": "C:\\Users\\jeffj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\backend\\SB.TechnicalTest\\obj\\",
+        "outputPath": "C:\\Users\\jeffj\\OneDrive\\文件\\workspace\\interview\\faria\\coding-tasks\\backend\\SB.TechnicalTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeffj\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -47,7 +47,7 @@ namespace SB.TechnicalTest
         static int Attempt1()
         {
             var i = 0;
-            while (++i <= Building.NumberFloors && Building.DropMarble(i));
+            while (++i <= Building.NumberFloors && Building.DropMarble(i)) ;
 
             return i - 1;
         }
@@ -58,7 +58,27 @@ namespace SB.TechnicalTest
         /// <returns>Highest safe floor.</returns>
         static int Attempt2()
         {
-            return 0;
+            // Binary search the left bound for the floor that breaks the marble
+            int left = 1;
+            int right = Building.NumberFloors;
+
+            while (left < right)
+            {
+                int mid = left + (right - left) / 2;
+
+                bool notBreaked = Building.DropMarble(mid);
+                if (notBreaked)
+                {
+                    left = mid + 1;
+                }
+                else
+                {
+                    right = mid;
+                }
+            }
+
+            // The left bound stands for the lowest floor that will break the marble, thus left - 1 will be the highest safe floor
+            return left - 1;
         }
     }
 }
