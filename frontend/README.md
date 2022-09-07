@@ -3,7 +3,7 @@ As the System User I would like to see active user’s personal data in a table 
 
 ## Usage
 
-Run `npm install` for install dependencies
+Run `npm install` for install dependencies  
 Run `ng serve` for local development
 
 ## Dependencies
