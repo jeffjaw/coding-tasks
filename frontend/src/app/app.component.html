@@ -28,7 +28,7 @@
           <td>{{ row.age }}</td>
           <td>{{ row.registered | date: "dd-mm-yyyy hh:mm:ss" }}</td>
           <td>{{ row.email }}</td>
-          <td>{{ row.balanceNum | currency: "GBP" }}</td>
+          <td>{{ row.balanceNum | currency: "GBP":"symbol":"1.2-2" }}</td>
         </tr>
       </ng-template>
     </p-table>
