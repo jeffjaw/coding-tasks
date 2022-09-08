@@ -5,12 +5,9 @@ As the System User I would like to see active user’s personal data in a table 
 
 Run `npm install` for install dependencies  
 Run `ng serve` for local development
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Dependencies
 
 - Angular 14
 - Primeng datatable for data grid
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

@@ -37,16 +37,20 @@ export class AppComponent implements OnInit {
 
   loadUsers() {
     return this.http.get<User[]>('/assets/users.json').subscribe((users) => {
-      users.sort((a, b) => a.name.localeCompare(b.name));
-      this.rawUsersData = users
-        .map((user) => {
-          user.registered = user.registered.replace(/ /g, '');
-          user.balanceNum = parseFloat(user.balance.replace(/[^0-9\.]+/g, ''));
-          return user;
-        })
-        .filter((user) => {
-          return user.isActive;
-        });
+      users.sort((a, b) => {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+      });
+      this.rawUsersData = users.map((user) => {
+        user.registered = user.registered.replace(/ /g, '');
+        user.balanceNum = parseFloat(user.balance.replace(/[^0-9\.]+/g, ''));
+        return user;
+      });
       this.users = this.rawUsersData;
     });
   }
